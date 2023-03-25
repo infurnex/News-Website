@@ -1,0 +1,133 @@
+body , html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.newbody{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(42, 41, 41);
+}
+
+.navbar{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: rgb(197, 193, 193);
+}
+.navbar>div:nth-child(1){
+    display: flex;
+}
+.navbar>div:nth-child(1)>div{
+    margin-right: 1rem;
+}
+.newnavbar{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: black;
+}
+.newnavbar>div:nth-child(1){
+    display: flex;
+}
+.newnavbar>div:nth-child(1)>div{
+    margin-right: 1rem;
+    color: white;
+}
+
+
+.btn{
+    background-color: rgb(45, 44, 44);
+    color: white;
+    padding: 0.2rem;
+    width: 100px;
+    border-radius: 15px;
+}
+.newbtn{
+    background-color: white;
+    color: black;
+    padding: 0.2rem;
+    width: 100px;
+    border-radius: 15px;
+
+}
+
+.news-sec{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 1rem 1rem 1rem 8rem;
+    font-size: 2rem;
+}
+.newtitle{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 1rem 1rem 1rem 8rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.news{
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 43rem;
+    overflow-y: scroll;
+    background-color: rgb(242, 240, 239);
+}
+.newnews{
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 43rem;
+    overflow-y: scroll;
+    background-color: rgb(34, 34, 34);
+}
+.newsbox{
+    height: 25rem;
+    width: 27rem;
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid black;
+}
+.newnewsbox{
+    height: 25rem;
+    width: 27rem;
+    background-color: rgb(49, 48, 48);
+    padding: 1rem;
+    margin: 2rem;
+    border: 1px solid white;
+    color: white;
+}
+.nb-img{
+    height: 15rem;
+    width: 100%;
+}
+.nb-heading{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0.5rem;
+}
+.nb-discrip{
+    margin: 0.5rem;
+}
+.nb-author{
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
